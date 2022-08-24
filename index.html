@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        function check(x, y, z) {
+            let a = x.toString();
+            let b = y.toString()
+            let c = z.toString()
+            let v = a.substring(a.length, a.length - 1);
+            let n = b.substring(b.length, b.length - 1);
+            let l = c.substring(c.length, c.length - 1);
+    
+
+            if((v == n) && (n == l)) {
+                console.log(true);
+            } else {
+                console.log(false);
+            }
+        }
+        check(2134, 214, 954);
+    </script>
+</body>
+</html>
